@@ -18,10 +18,10 @@ p#myBox2 {
 }
 
 p#myBox3 {
-    background: red;
+    background: #51eb00;
     width: 500px;
     height: 150px;
-    padding: 50px 20px 30px 10px;
-    margin: 20px 5px 20px 5px;
-    border: 10px solid gray;
+    padding: 20px;
+    margin: 50px;
+    border: 5px solid gray;
 }
