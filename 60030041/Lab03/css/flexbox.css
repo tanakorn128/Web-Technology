@@ -14,11 +14,17 @@ div {
 div:nth-child(3) {
     margin-left: auto;
 }
-
 article {
     display: flex;
-    /*flex-wrap: wrap; */
-    flex-flow: row-reverse wrap;
+    //flex-wrap: wrap;
+   // flex-flow: row-reverse wrap;
+}
+@media screen and (max-width: 980px)
+{
+article {
+    display: flex;
+    flex-wrap: wrap;
+}
 }
 
 section {
@@ -29,6 +35,7 @@ section {
     padding: 10px;
     box-sizing: content-box;
     width: 100%;
+	
 }
 
 aside {
@@ -49,10 +56,16 @@ footer {
 
 main {
     display: flex;
-    flex-wrap: wrap;
+   // flex-wrap: wrap;
 }
 
 
+2
+3
+4
+5
+
+}
 /*section:nth-child(2) {
     text-align: center;
 }
